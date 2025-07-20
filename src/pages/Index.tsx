@@ -62,7 +62,7 @@ const Index = () => {
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="space-y-3">
+        <div className="space-y-3 bg-gray-900">
           <div className="text-3xl font-bold text-slate-900">
             {formatCurrency(data.rate, pair)}
           </div>
